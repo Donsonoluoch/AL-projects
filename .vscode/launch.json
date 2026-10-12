@@ -9,7 +9,7 @@
             "server": "http://localhost:8080/BC140/",
             "serverInstance": "BC140",
             "authentication": "Windows",
-            "schemaUpdateMode": "Recreate", //after a schema update, the database will be recreated. Use with caution!
+            "schemaUpdateMode": "Synchronize", //after a schema update, the database will be recreated if "recreate" is applied. Use with caution! synchronize to reflect the current changes
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": "All",
